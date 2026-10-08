@@ -806,7 +806,7 @@ class WeatherForecast(ABC):
                 *([f"height({height})"] if height is not None else []),
                 f"time({forecast_horizon_in_seconds})",
                 f"lat({lat[0]},{lat[1]})",
-                f"lon({lon[0]},{lon[1]})",
+                f"long({lon[0]},{lon[1]})",
             ]
 
         params = {
