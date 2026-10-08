@@ -39,6 +39,8 @@ dependencies = [
     "xarray>=2024.5.0",
     "xmltodict>=0.13.0",
     "matplotlib>=3.8.4",
+    "urllib3>=2.8.0",
+    "pillow>=12.3.0",
 ]
 
 [project.urls]
